@@ -10,7 +10,7 @@ curl -X POST "https://models.inference.ai.azure.com/chat/completions" \
             },
             {
                 "role": "user",
-                "content": "What is the capital of France?"
+                "content": "reply only with a very concise but informative commit message, and nothing else:"
             }
         ],
         "model": "openai/gpt-4.1"

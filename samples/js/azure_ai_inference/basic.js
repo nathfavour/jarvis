@@ -26,7 +26,7 @@ export async function main() {
     body: {
       messages: [
         { role:"system", content: "You are a helpful assistant." },
-        { role:"user", content: "What is the capital of France?" }
+        { role:"user", content: "write me 10 lines of rust code to interact with system low level, and nothing else" }
       ],
       model: modelName,
       // Optional parameters
